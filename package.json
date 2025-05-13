@@ -4,15 +4,19 @@
   "description": "Servidor MCP para integración con modelos de lenguaje",
   "main": "serverMCP.ts",
   "scripts": {
-   "start": "npx tsx serverMCP.ts",
+    "start": "npx tsx serverMCP.ts",
     "test": "npx @modelcontextprotocol/inspector npx tsx serverMCP.ts"
   },
-   "keywords": ["mcp", "ai", "llm-integration"],
+  "keywords": [
+    "mcp",
+    "ai",
+    "llm-integration"
+  ],
   "author": "Joel Benitez",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.11.1",
+    "@modelcontextprotocol/sdk": "^1.11.2",
     "zod": "^3.24.4"
   }
 }
