@@ -1,5 +1,7 @@
 # Demo MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@j03rul4nd/mcp-001)](https://smithery.ai/server/@j03rul4nd/mcp-001)
+
 Este proyecto implementa un servidor MCP (Model Context Protocol) utilizando el SDK de MCP. El servidor incluye herramientas y recursos dinámicos que pueden ser utilizados para realizar operaciones específicas y generar respuestas dinámicas.
 
 ## Características
@@ -12,7 +14,18 @@ Este proyecto implementa un servidor MCP (Model Context Protocol) utilizando el 
 - Node.js (versión 16 o superior)
 - npm (gestor de paquetes de Node.js)
 
+
 ## Instalación
+
+### Installing via Smithery
+
+To install Demo MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@j03rul4nd/mcp-001):
+
+```bash
+npx -y @smithery/cli install @j03rul4nd/mcp-001 --client claude
+```
+
+### Manual Installation
 
 1. Clona este repositorio:
    ```bash
