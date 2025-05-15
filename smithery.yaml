@@ -1,0 +1,16 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required: []
+    properties: {}
+    default: {}
+    description: Configuration for mi-servidor-mcp
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'tsx', args: ['serverMCP.ts'], env: {} })
+  exampleConfig: {}
